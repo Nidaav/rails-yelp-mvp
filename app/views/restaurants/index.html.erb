@@ -1,12 +1,10 @@
 <div class="main">
-<h1 class="top-hamburger"> Top
-</h1>
-<h1 class="mid-hamburger-tomato"></h1>
-<h1 class="mid-hamburger-cheddar"></h1>
-<h1 class="mid-hamburger-steak"> Restaurants </h1>
-<h1 class="mid-hamburger-lettuce"></h1>
-<h1 class="bot-hamburger"> List </h1>
-
+    <h1 class="top-hamburger"> Top </h1>
+    <h1 class="mid-hamburger-tomato"></h1>
+    <h1 class="mid-hamburger-cheddar"></h1>
+    <h1 class="mid-hamburger-steak"> Restaurants </h1>
+    <h1 class="mid-hamburger-lettuce"></h1>
+    <h1 class="bot-hamburger"> List </h1>
   <div class="list-container">
     <% @restaurants.each do |restaurant| %>
     <div class="top-restaurant">
@@ -15,5 +13,12 @@
       <a href="<% restaurants_path(restaurant) %>" class="button"> See more </a>
     </div>
     <% end %>
+  </div>
+  <div class="donut">
+    <div class="donut-chocolate">
+      <div class="donut-middle">
+        <h1 class="menus-title"> Restaurants menu's</h1>
+      </div>
+    </div>
   </div>
 </div>
