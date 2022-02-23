@@ -1,1 +1,82 @@
-// Specific CSS for your home-page
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: $blanc-casse;
+  .top-hamburger{
+    text-align: center;
+    color: $blanc-casse;
+    font-size: 2.8em;
+    padding: 10px;
+    margin: 0.4% 34%;
+    background-color: #FFC600;
+    border-radius: 50px 50px 5px 5px;
+  }
+  .mid-hamburger-tomato{
+    background-color: red;
+    padding: 10px;
+    margin: 0.4% 36%;
+    border-radius: 20px;
+  }
+  .mid-hamburger-cheddar{
+    background-color: #FFB72B;
+    padding: 6px;
+    margin: 0.4% 35%;
+    border-radius: 20px;
+  }
+  .mid-hamburger-steak{
+    text-align: center;
+    color: $blanc-casse;
+    background-color: brown;
+    font-size: 2.8em;
+    padding: 6px;
+    margin: 0.4% 35%;
+    border-radius: 20px;
+  }
+  .mid-hamburger-lettuce{
+    text-align: center;
+    color: $bleu-canard;
+    background-color: green;
+    font-size: 2.8em;
+    padding: 8px;
+    margin: 0.4% 35%;
+    border-radius: 20px;
+  }
+  .bot-hamburger{
+    text-align: center;
+    color: $blanc-casse;
+    font-size: 2.8em;
+    padding: 10px;
+    margin: 0.4% 34%;
+    background-color: #FFC600;
+    border-radius: 5px 5px 50px 50px;
+  }
+    .list-container{
+      background-color: $bleu-canard;
+      width: 80%;
+      margin: 1% 10%;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      .top-restaurant{
+        background-color: $blanc-casse;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        padding-top: 8%;
+          .button {
+            background-color: $bleu-canard;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+          }
+      }
+    }
+}

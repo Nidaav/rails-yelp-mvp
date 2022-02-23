@@ -4,8 +4,8 @@ Restaurant.destroy_all
 
 puts "Creating restaurants..."
 dishoom = { name: "Dishoom", address: "7 Boundary St, London E2 7JE", category: "japanese" }
-pizza_east =  { name: "Pizza East", address: "56A Shoreditch High St, London E1 6PQ", category: "japanese" }
-miam_sushi =  { name: "Miam Sushi", address: "56A Shoreditch High St, London E1 6PQ", category: "japanese" }
+pizza_east =  { name: "Pizza East", address: "56A Shoreditch High St, London", category: "japanese" }
+miam_sushi =  { name: "Miam Sushi", address: "56A Shoreditch High St, London", category: "japanese" }
 chez_yian_fu =  { name: "Chez Yian Fu", address: "Le Mans", category: "chinese" }
 hot_sushi_hihi_ce_fo =  { name: "Hot Sushi hihi ce fo", address: "Roubaix", category: "japanese" }
 pizza_luigi =  { name: "Pizza Luigi", address: "Paris", category: "italian" }
